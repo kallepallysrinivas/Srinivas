@@ -13,6 +13,6 @@ public static void main(String args[])
 {
 Addition cal = new Addition();
 System.out.println(cal.add(2,3));
-System.out.printin(cal.square(41));
+System.out.println(cal.square(41));
 }
 }
