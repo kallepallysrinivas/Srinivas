@@ -8,6 +8,7 @@ return c;
 public int square(int x)
 {
 	int z=x*x;
+	return z;
 }
 public static void main(String args[])
 {
