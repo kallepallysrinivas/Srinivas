@@ -12,7 +12,7 @@ public int square(int x)
 public static void main(String args[])
 {
 Addition cal = new Addition();
-System.out.println("The sum of two numbers is "+(cal.add(2,3)));
-System.out.printin("The square of the number is "+(cal.square41));
+System.out.println("The sum of two numbers is %d",(cal.add(2,3)));
+System.out.printin("The square of the number is %d",(cal.square(41)));
 }
 }
