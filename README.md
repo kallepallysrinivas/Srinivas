@@ -11,7 +11,11 @@ srinivassrinivassrinivassrinivassrinivas
 
 srinivassrinivassrinivassrinivas
 
-srinivassrinivassrinivas
+srinivassruby perimeter.rb
+Enter the radius of the circle:
+2
+The perimeter (circumference) of the circle is: 12.57
+The area of the circle is: 12.57rinivassrinivas
 
 srinivassrinivas
 
@@ -78,5 +82,39 @@ Largest number is: 520
 
 
 
+5.
+def calculate_circle_properties(radius)
+  # Calculate the perimeter (circumference)
+  perimeter = 2 * Math::PI * radius
+  
+  # Calculate the area
+  area = Math::PI * radius**2
+  ruby perimeter.rb
+Enter the radius of the circle:
+2
+The perimeter (circumference) of the circle is: 12.57
+The area of the circle is: 12.57
+  return perimeter, area
+end
+
+# Main script
+puts "Enter the radius of the circle:"
+radius = gets.chomp.to_f  # Get user input and convert it to a float
+
+if radius < 0
+  puts "Please enter a positive number for the radius."
+else
+  perimeter, area = calculate_circle_properties(radius)
+  
+  puts "The perimeter (circumference) of the circle is: #{perimeter.round(2)}"
+  puts "The area of the circle is: #{area.round(2)}"
+end
+
+output:
 
 
+ruby perimeter.rb
+Enter the radius of the circle:
+2
+The perimeter (circumference) of the circle is: 12.57
+The area of the circle is: 12.57
