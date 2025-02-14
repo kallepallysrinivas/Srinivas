@@ -51,3 +51,32 @@ Number is ODD
 ruby else.rb
 Enter number:2
 Number is Even
+
+4.print "Enter number1: "
+num1 = gets.chomp.to_i
+print "Enter number2: "
+num2 = gets.chomp.to_i
+print "Enter number3: "
+num3 = gets.chomp.to_i
+
+if num1 > num2 && num1 > num3
+  large = num1
+elsif num2 > num3
+  large = num2
+else
+  large = num3
+end
+
+print "Largest number is: #{large}\n"
+
+output:
+ruby elseif.rb
+Enter number1: 520
+Enter number2: 52
+Enter number3: 63
+Largest number is: 520
+
+
+
+
+
